@@ -1,0 +1,28 @@
+{
+  "name": "sander0542/laravel-debug-routes",
+  "description": "Debug Routes for Laravel",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sander Jochems",
+      "email": "contact@sanderjochems.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "illuminate/support": "^8 || ^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sander0542\\LaravelDebugRoutes\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sander0542\\LaravelDebugRoutes\\RouteServiceProvider"
+      ]
+    }
+  }
+}
